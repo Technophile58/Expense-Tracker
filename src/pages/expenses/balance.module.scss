@@ -1,0 +1,24 @@
+.balance {
+    &__box {
+        .balance {
+            
+            &__title {
+                text-align: center;
+                font-size: .8rem;
+                line-height: .8rem;
+                font-weight: normal;
+                text-transform: uppercase;
+                display: block;
+                margin: 0 0 5px;
+            }
+            &__amount {
+                text-align: center;
+                font-size: 1.7rem;
+                line-height: 1.7rem;
+                font-weight: 700;
+                display: block;
+                margin: 0 0 0;
+            }
+        }
+    }
+}

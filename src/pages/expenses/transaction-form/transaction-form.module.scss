@@ -1,0 +1,79 @@
+.f {
+    &__container {
+        padding: 10px;
+        background: #fff;
+    }
+}
+
+.field {
+    &__group {
+        margin-bottom: 15px;
+        
+        .control {
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: none;
+            border: 1px solid #ddd;
+            padding: 5px;
+            height: 40px;
+            border-radius: 3px;
+        }
+
+        .help {
+            font-size: .8rem;
+            text-align: center;
+            display: block;
+        }
+
+        textarea.control {
+            height: auto;
+        }
+    }
+}
+
+.actions {
+    text-align: right;
+}
+
+.button {
+    font-size: .9rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    color: #111;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    padding: 0.37rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    min-width: 100px;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+
+    $income: var(--income-color);
+    $outcome:  var(--outcome-color);
+
+    &.income {
+        color: #eee;
+        background: var(--income-color);
+        border-color: var(--income-color);
+        margin-right: 5px;
+        box-shadow: 0 8px 8px rgba($income, 0.14);
+    }
+
+    &.outcome {
+        color: #eee;
+        background: var(--outcome-color);
+        border-color: var(--outcome-color);
+        box-shadow: 0 8px 8px rgba($outcome, 0.14);
+    }
+}

@@ -1,0 +1,23 @@
+.h {
+
+    &__container {
+        position: relative;
+    }
+
+    &__content {
+        position: relative;
+        min-height: 300px;
+
+    }
+
+    &__empty {
+        text-align: center;
+        padding: 15px 0;
+        img {
+            max-width: 200px;
+            margin: 10px auto;
+            
+        }
+    }
+
+}
